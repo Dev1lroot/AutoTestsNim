@@ -1,0 +1,32 @@
+[
+	{
+		"status": true,
+		"title": "Sample AutoTest",
+		"request":
+		{
+			"type": "GET",
+			"link": "https://mcskill.net/api/v2/order",
+			"body": {
+				"items": [
+					{
+						"type": "group",
+						"server": 26,
+						"item": 1,
+						"amount": 2678400
+					}
+				]
+			},
+			"headers": {
+				"User-Agent": "Mozilla/5.0 (Ubuntu x64 Linux)"
+			},
+			"auth": {
+				"username":"",
+				"password":""
+			}
+		},
+		"response":
+		{
+
+		}
+	}
+]
